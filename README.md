@@ -16,10 +16,17 @@ You can obtain the MyToken contract by either copying the provided Solidity code
 To deploy and interact with the contract, follow these steps:
 
 1.Compile the Solidity code using a Solidity compiler such as Remix IDE or Truffle.
+
 2.Deploy the compiled contract to an Ethereum network (e.g., Remix IDE, Truffle, or a custom deployment script).
+
 3.Use web3.js, ethers.js, or any Ethereum client library to interact with the deployed contract.
 ```
-code blocks for commands
+// mint function
+    function mint(address _address, uint _value) public
+   {
+      totalSupply += _value;
+      balances[_address]+=_value;
+    }
 ```
 
 ## Help
@@ -31,12 +38,11 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
+[Mehak Thakur] [mehakthakur051003@gmail.com]
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+
 
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details# SolidityAssesment
+This project is licensed under the MIT License - see the LICENSE.md file for details
