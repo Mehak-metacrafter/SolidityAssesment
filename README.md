@@ -29,12 +29,7 @@ To deploy and interact with the contract, follow these steps:
     }
 ```
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
